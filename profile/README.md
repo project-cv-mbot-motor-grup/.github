@@ -1,74 +1,44 @@
-# Setup PHP dan Laravel
+# CV MBOT MOTOR GRUP
 
-Cek Versi:
+Website Company Profile (Laravel)
 
-```sh
-    php -v
-    composer -V
-```
+## 📌 Deskripsi Project
 
-## 1. Buat Project Laravel
+CV MBOT MOTOR GRUP adalah sebuah website company profile yang dibangun menggunakan framework **Laravel**. Website ini digunakan untuk menampilkan informasi perusahaan, layanan, profil bisnis, serta kontak yang dapat diakses oleh publik secara online.
 
-```sh
-composer create-project laravel/laravel myapp
-```
+Project ini difokuskan pada tampilan yang sederhana, cepat, dan mudah dikelola oleh admin.
 
-## 2. Masuk ke Folder Project
+---
 
-```sh
-cd myapp
-```
+## 🚀 Fitur Utama
 
-## 3. Jalankan Laravel
+- Halaman Beranda (Landing Page)
+- Profil Perusahaan
+- Kontak & Form Pesan
+- Dashboard Admin
+  ...
 
-```sh
-php artisan serve
-```
+---
 
-Buka browser:
+## 🧱 Teknologi yang Digunakan
 
-```sh
-http://127.0.0.1:8000
-```
+- Laravel (PHP Framework)
+- MySQL / MariaDB
+- Tailwind CSS
+- Vite
 
-## 4. Setup Database
+---
 
-Buka file:
+## 📄 Dokumentasi
 
-```sh
-.env
-```
+- [SETUP_LARAVEL.md](../SETUP_LARAVEL.md) → panduan instalasi Laravel lengkap
+- [DATABASE.md](../DATABASE.md) → dokumentasi database
+- [DESAIN_UI.md](../DESAIN_UI.md) → desain UI
 
-Ubah:
+---
 
-```sh
-DB_DATABASE=laravel_db
-DB_USERNAME=root
-DB_PASSWORD=
-```
+---
 
-Pastikan database sudah dibuat di `phpMyAdmin`
+## 📝 Catatan
 
-## 6. Struktur yang wajib
-
-```sh
-myapp/
-├── app/
-│   ├── Http/
-│   │    └── Controllers/    → Tempat logic aplikasi (SAW, perhitungan, dashboard, dll)
-│   └── Models/
-├── bootstrap/
-├── config/
-├── database/
-├── public/
-├── resources/
-│   └── views/              → Tampilan (Blade template: UI, halaman web)
-├── routes/
-│   └── web.php             → Mengatur URL / routing aplikasi
-├── storage/
-├── tests/
-├── vendor/
-├── .env                    → Konfigurasi aplikasi (database, app name, mode, dll)
-│
-...
-```
+Project ini dikembangkan untuk kebutuhan company profile dan dapat dikembangkan lebih lanjut sesuai kebutuhan bisnis.

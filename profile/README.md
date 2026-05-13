@@ -54,8 +54,9 @@ Pastikan database sudah dibuat di `phpMyAdmin`
 ```sh
 myapp/
 ├── app/
-│   └── Http/
-│       └── Controllers/    → Tempat logic aplikasi (SAW, perhitungan, dashboard, dll)
+│   ├── Http/
+│   │    └── Controllers/    → Tempat logic aplikasi (SAW, perhitungan, dashboard, dll)
+│   └── Models/
 ├── bootstrap/
 ├── config/
 ├── database/

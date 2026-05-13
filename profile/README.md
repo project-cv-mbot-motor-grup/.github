@@ -52,8 +52,6 @@ Pastikan database sudah dibuat di `phpMyAdmin`
 ## 6. Struktur yang wajib
 
 ```sh
-
-```sh
 myapp/
 ├── app/
 │   └── Http/
@@ -72,5 +70,4 @@ myapp/
 ├── .env                    → Konfigurasi aplikasi (database, app name, mode, dll)
 │
 ...
-```
 ```

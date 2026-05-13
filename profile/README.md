@@ -52,8 +52,25 @@ Pastikan database sudah dibuat di `phpMyAdmin`
 ## 6. Struktur yang wajib
 
 ```sh
-routes/web.php          → URL
-app/Http/Controllers/   → logic
-resources/views/        → tampilan
-.env                    → config
+
+```sh
+myapp/
+├── app/
+│   └── Http/
+│       └── Controllers/    → Tempat logic aplikasi (SAW, perhitungan, dashboard, dll)
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+│   └── views/              → Tampilan (Blade template: UI, halaman web)
+├── routes/
+│   └── web.php             → Mengatur URL / routing aplikasi
+├── storage/
+├── tests/
+├── vendor/
+├── .env                    → Konfigurasi aplikasi (database, app name, mode, dll)
+│
+...
+```
 ```
